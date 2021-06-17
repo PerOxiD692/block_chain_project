@@ -21,6 +21,10 @@ class Block{
 
     }//end toString()
 
+    static genesis(){
+        return new this("Genesis time", "no Hash", "abc1234", ["no Data"]);
+    }
+
 }//end class Block
 
 module.exports = Block; //Export als Modul
