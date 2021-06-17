@@ -5,3 +5,4 @@ const Block = require("./block");
 // console.log(block.toString());
 
 console.log(Block.genesis().toString());
+console.log("-----------------------------------------");
