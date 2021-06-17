@@ -9,6 +9,16 @@ class Block{
         this.data = data;
     }//end constructor
 
+    //für debugging-Zweck, Inhalt des Objekts
+    toString(){
+        return ` Block -
+        Timestamp:  ${this.timestamp}
+        Last Hash:  ${this.lastHash.substring(0,10)}
+        Hash:       ${this.hash.substring(0,10)}
+        Data:       ${this.data}
+        `;
+
+    }//end toString()
 
 
 
