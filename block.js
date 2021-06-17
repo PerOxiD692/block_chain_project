@@ -11,7 +11,8 @@ class Block{
 
     //für debugging-Zweck, Inhalt des Objekts
     toString(){
-        return ` Block -
+        return ` 
+        ----------- Block -----------
         Timestamp:  ${this.timestamp}
         Last Hash:  ${this.lastHash.substring(0,10)}
         Hash:       ${this.hash.substring(0,10)}
@@ -20,8 +21,6 @@ class Block{
 
     }//end toString()
 
-
-
-
-
 }//end class Block
+
+module.exports = Block; //Export als Modul
